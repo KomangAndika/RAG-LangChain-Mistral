@@ -10,5 +10,5 @@ Rag typically has two main components:
 - Store, place to store and index the splits (VectorDB and Embedding model are here), the VectorDB I am using is FAISS and sentence-transformer for embedding.
 
 ### Retrieval + Generation
-- Retrieve, given the user input, retrieve relevant splits from the VectorDB.
-- Generate, using chatmodel/LLM(in this case Mistral) to produce answer using prompt and retrieval data
+- Retrieve, given the user input, retrieve relevant splits from the VectorDB(FAISS).
+- Generate, using chatmodel/LLM(in this case Mistral 7b) to produce respose based on user prompt and retrieved data
