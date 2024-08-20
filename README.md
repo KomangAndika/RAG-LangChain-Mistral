@@ -1,5 +1,5 @@
 # RAG-LangChain-Mistral
-Using RAG(Retrieval-Augmented Generation) to retrieve informationn from 10 LLM research paper, the LLM I am using Mistral 7b with LangChain Framework.
+Using RAG(Retrieval-Augmented Generation) to retrieve informationn from 10 LLM research paper, the LLM I am using Mistral 7b with LangChain Framework. The Mistral model I am using is quntized with NF4 Quantization useful to reduce the model size and usage of VRAM but still kinda keeping the accuracy
 ## RAG(Retrieval-Augmented Generation) with LangChain
 Rag typically has two main components:
 1. Indexing, basically pipeline to ingest data (Usually done Offline).
